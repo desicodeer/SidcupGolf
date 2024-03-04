@@ -70,4 +70,27 @@ video{
     font-size: 18px;
     font-weight: 500;
     width: 40%;
+    z-index: 10;
+}
+.page2{
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+}
+#cursor{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #95c11e;
+    position: fixed;
+    z-index: 99;
+}
+#cursor-blur{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #61810a73;
+    position: fixed;
+    z-index: 9;
+    filter: blur(30px);
 }
