@@ -98,3 +98,14 @@ gsap.to("#nav", {
       scrub: 1,
     },
   });
+  gsap.from("#page4 h1", {
+    y: 50,
+    scrollTrigger: {
+      trigger: "#page4 h1",
+      scroller: "body",
+      // markers:true,
+      start: "top 75%",
+      end: "top 70%",
+      scrub: 3,
+    },
+  });
