@@ -402,7 +402,7 @@ video{
   
     border-radius: 50px;
   }
-  #page1 #arrow {
+  .page1 #arrow {
     height: 250px;
     width: 250px;
     background-color: transparent;
@@ -417,12 +417,12 @@ video{
     transition: all ease 0.5s;
 }
 
-#page1 #arrow i {
+.page1 #arrow i {
     font-size: 50px;
     font-weight: 100;
 }
 
-#page1 #arrow:hover {
+.page1 #arrow:hover {
     scale: 0.4;
     background-color: #95c11e;
 }
