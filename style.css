@@ -437,11 +437,12 @@ video{
     justify-content: space-evenly;
     gap: 12px;
     margin: 24px auto 0;
-    width:90%
+    width:90%;
+    margin:30px auto;
 }
 .descriptive img{
     width: 100%;
-    height: 80vh;
+    height: auto;
     border-radius: 20px;
 }
 .descriptive .img-part{
@@ -450,9 +451,26 @@ video{
 .descriptive .info{
     width: 45%;
     color: #fff;
+    font-family:normal;
 }
 .descriptive .info h4{
     font-size: 50px;
     font-weight: 900;
     margin-bottom: 30px;
+}
+.descriptive .info p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+}
+.descriptive .info button{
+    cursor:pointer;
+    color: #fff;
+    background-color: #95C11e;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 6px 10px;
+    margin: 15px 0;
+    text-align:center;
 }
