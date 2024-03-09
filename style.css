@@ -431,7 +431,7 @@ video{
     background-color: #95c11e;
 }
 .descriptive{
-    height: 60vh;
+    height: 65vh;
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -439,6 +439,8 @@ video{
     margin: 24px auto 0;
     width:90%;
     margin:30px auto;
+    position:relative;
+    z-index:10;
 }
 .descriptive img{
     width: 100%;
@@ -457,11 +459,13 @@ video{
     font-size: 50px;
     font-weight: 900;
     margin-bottom: 30px;
+    font-family:normal;
 }
 .descriptive .info p{
     font-size: 20px;
     font-weight: 400;
-    line-height: 38px;
+    line-height: 30px;
+    font-family:normal;
 }
 .descriptive .info button{
     cursor:pointer;
@@ -470,7 +474,9 @@ video{
     border-radius: 20px;
     text-transform: uppercase;
     font-weight: 400;
-    padding: 6px 10px;
+    padding: 12px 18px;
     margin: 15px 0;
     text-align:center;
+    border:none;
+    font-family:normal;
 }
