@@ -438,9 +438,11 @@ video{
     gap: 12px;
     margin: 24px auto 0;
     width:90%;
-    margin:30px auto;
+    margin:55px auto;
     position:relative;
     z-index:10;
+    align-items:center;
+    
 }
 .descriptive img{
     width: 100%;
@@ -450,7 +452,7 @@ video{
 }
 .descriptive .img-part{
     width:45%;
-    height:373px;
+    height:300px;
 }
 .descriptive .info{
     width: 45%;
