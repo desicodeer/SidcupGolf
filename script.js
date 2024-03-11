@@ -52,7 +52,7 @@ gsap.to("#nav", {
     opacity: 0,
     duration: 1,
     scrollTrigger: {
-      trigger: "#about-us",
+      trigger: ".about-us",
       scroller: "body",
       // markers:true,
       start: "top 70%",
