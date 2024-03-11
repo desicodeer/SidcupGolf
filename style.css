@@ -238,15 +238,7 @@ video{
     font-size: 16px;
 
 }
-.card:hover h5{
-  opacity: 0;
-}
-.card:hover .overlay{
-    opacity: 1;
-}
-.card:hover {
-    transform: rotate3d(-1, 1, 0, 20deg);
-  }
+
   #green-card {
     height: 30vh;
     display: flex;
@@ -464,10 +456,19 @@ video{
   color: #222;
   font-size: 30px;
 }
-.page1 #arrow:hover {
+.page1 #arrow:hover{
     scale: 0.4;
     background-color: #95c11e;
 }
+.card:hover h5{
+  opacity: 0;
+}
+.card:hover .overlay{
+    opacity: 1;
+}
+.card:hover {
+    transform: rotate3d(-1, 1, 0, 20deg);
+  }
 .descriptive{
     height: 50vh;
     display:flex;
