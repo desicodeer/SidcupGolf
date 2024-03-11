@@ -61,7 +61,7 @@ gsap.to("#nav", {
     },
   });
   gsap.from(".card", {
-    scale: 0,
+    scale: 0.8,
     // opacity:0,
     duration: 1,
     stagger: 0.1,
