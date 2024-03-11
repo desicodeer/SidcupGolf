@@ -430,6 +430,7 @@ video{
     justify-content: center;
     border-radius: 50%;
     transition: all ease 0.5s;
+    z-index: 10;
 }
 
 .page1 #arrow i {
