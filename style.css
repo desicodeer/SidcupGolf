@@ -204,7 +204,7 @@ video{
     width: 100%;
     height: 100%;
     background-color: #95c11e;
-    padding: 0 30px;
+    padding: 30px;
     color:#000;
     opacity:0;
     transition: all linear 0.5s;
