@@ -219,6 +219,7 @@ video{
  padding-top: 40px;
 
 }
+
 .card h5{
   text-align: center;
   font-size:28px;
@@ -226,12 +227,19 @@ video{
   color: #fff;
   font-weight: 800;
   white-space: nowrap;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
  
 }
 .overlay p{
     color: #000;  
     font-size: 16px;
 
+}
+.card:hover h5{
+  opacity: 0;
 }
 .card:hover .overlay{
     opacity: 1;
