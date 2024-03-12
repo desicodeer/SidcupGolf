@@ -190,6 +190,19 @@ video{
     transition: all linear 0.5s;
     cursor:pointer;
     text-align:center;
+    animation-name: big;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+    
+}
+@keyframes big{
+  from{
+    transform: scale(0.8,0.8);
+  }
+  to{
+    transform: scale(1,1);
+  }
 }
 #card1{
     background-image: url(assets/card1.avif);

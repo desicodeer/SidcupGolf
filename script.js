@@ -47,6 +47,20 @@ gsap.to("#nav", {
     },
 
   });
+  // gsap.from(".card", {
+  //   scale: 0.8,
+  //   // opacity:0,
+  //   duration: 1,
+  //   stagger: 0.1,
+  //   scrollTrigger: {
+  //     trigger: ".card",
+  //     scroller: "body",
+  //     // markers:false,
+  //     start: "top 70%",
+  //     end: "top 65%",
+  //     scrub: 1,
+  //   },
+  // });
   gsap.from(".about-us img, .about-content", {
     y: 90,
     opacity: 0,
@@ -60,20 +74,7 @@ gsap.to("#nav", {
       scrub: 1,
     },
   });
-  gsap.from(".card", {
-    scale: 0.8,
-    // opacity:0,
-    duration: 1,
-    stagger: 0.1,
-    scrollTrigger: {
-      trigger: ".card",
-      scroller: "body",
-      // markers:false,
-      start: "top 70%",
-      end: "top 65%",
-      scrub: 1,
-    },
-  });
+ 
   gsap.from("#colon1", {
     y: -70,
     x: -70,
